@@ -1,0 +1,144 @@
+@-webkit-keyframes body-action{
+	0%{-webkit-transform:  rotate(5deg) translate( 5px,   0px);}
+	25%{-webkit-transform:  rotate(5deg) translate(-5px, -14px);}
+	50%{-webkit-transform:  rotate(5deg) translate( 5px,   0px);}
+	75%{-webkit-transform:  rotate(5deg) translate(-5px, -14px);}
+	100%{-webkit-transform: rotate(5deg) translate( 5px,   0px);}	
+}
+
+@-webkit-keyframes right-bicep-action{
+	0%{
+		-webkit-transform: rotate(26deg);
+	}
+	50%{
+		-webkit-transform: rotate(-20deg);
+	}
+	100%{
+		-webkit-transform: rotate(26deg);
+	}
+}
+
+@-webkit-keyframes right-forearm-action{
+	0%{
+		-webkit-transform: rotate(-10deg);
+	}
+	50%{
+		-webkit-transform: rotate(-45deg);
+	}
+	100%{
+		-webkit-transform: rotate(-10deg);
+	}
+}
+
+@-webkit-keyframes left-bicep-action{
+	0%{
+		-webkit-transform: rotate(-20deg);
+	}
+	50%{
+		-webkit-transform: rotate(26deg);
+	}
+	100%{
+		-webkit-transform: rotate(-20deg);
+	}
+}
+
+@-webkit-keyframes left-forearm-action{
+	0%{
+		-webkit-transform: rotate(-45deg);
+	}
+	50%{
+		-webkit-transform: rotate(-10deg);
+	}
+	100%{
+		-webkit-transform: rotate(-45deg);
+	}
+}
+
+
+@-webkit-keyframes right-thigh-action{
+	0%{
+		-webkit-transform: rotate(-45deg);
+	}
+	50%{
+		-webkit-transform: rotate(-10deg);
+	}
+	100%{
+		-webkit-transform: rotate(-45deg);
+	}
+}
+
+@-webkit-keyframes left-thigh-action{
+	0%{
+		-webkit-transform: rotate(10deg);
+	}
+	50%{
+		-webkit-transform: rotate(-45deg);
+	}
+	100%{
+		-webkit-transform: rotate(10deg);
+	}
+}
+
+@-webkit-keyframes shin-action{
+	0%{-webkit-transform:  rotate(20deg);}
+	25%{ -webkit-transform:  rotate(85deg);}
+	50%{ -webkit-transform:  rotate(30deg); }
+	75%{ -webkit-transform:  rotate(20deg); }
+	100%{ -webkit-transform: rotate(20deg);}	
+}
+
+@-webkit-keyframes shin-2-action{
+	0%{-webkit-transform:  rotate(30deg);}
+	25%{ -webkit-transform:  rotate(20deg);}
+	50%{ -webkit-transform:  rotate(20deg); }
+	75%{ -webkit-transform:  rotate(85deg); }
+	100%{ -webkit-transform: rotate(30deg);}	
+}
+
+
+@-webkit-keyframes foot-left-action{
+	0%{-webkit-transform:  rotate(-16deg);}
+	25%{ -webkit-transform:  rotate(-10deg);}
+	50%{ -webkit-transform:  rotate(-5deg); }
+	75%{ -webkit-transform:  rotate(-7deg); }
+	100%{ -webkit-transform: rotate(-16deg);}	
+}
+
+@-webkit-keyframes foot-right-action{
+	0%{-webkit-transform:  rotate(-5deg);}
+	25%{ -webkit-transform:  rotate(-7deg);}
+	50%{ -webkit-transform:  rotate(-16deg); }
+	75%{ -webkit-transform:  rotate(-10deg); }
+	100%{ -webkit-transform: rotate(-5deg);}	
+}
+-10 -25 0 -10 -10
+@-webkit-keyframes toe-left-action{
+	0%{-webkit-transform:  rotate(-10deg);}
+	25%{ -webkit-transform:  rotate(-25deg);}
+	50%{ -webkit-transform:  rotate(0deg); }
+	75%{ -webkit-transform:  rotate(-10deg); }
+	100%{ -webkit-transform: rotate(-10deg);}	
+}
+
+@-webkit-keyframes toe-right-action{
+	0%{-webkit-transform:  rotate(0deg);}
+	25%{ -webkit-transform:  rotate(-10deg);}
+	50%{ -webkit-transform:  rotate(-10deg); }
+	75%{ -webkit-transform:  rotate(-25deg); }
+	100%{ -webkit-transform: rotate(0deg);}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

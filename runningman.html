@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/runningman.css" />
+		<style type="text/css">
+			.man {
+				width: 84px;
+				height: 274px;
+				margin-top: 100px;
+				margin-left: auto;
+				margin-right: auto;
+				z-index: 0;
+				-webkit-animation: body-action 2s linear infinite;
+			}
+			
+			.man div {
+				position: absolute;
+			}
+			
+			.man img {
+				width: inherit;
+				height: inherit;
+				float: left;
+			}
+			
+			.right-bicep {
+				width: 51px;
+				height: 124px;
+				left: 9px;
+				top: 92px;
+				z-index: 999;
+				-webkit-transform-origin: 27px 28px;
+				-webkit-animation: right-bicep-action 2s linear infinite;
+			}
+			
+			.left-bicep {
+				width: 51px;
+				height: 124px;
+				left: 9px;
+				top: 92px;
+				z-index: -9999;
+				-webkit-transform-origin: 27px 28px;
+				-webkit-animation: left-bicep-action 2s linear infinite;
+			}
+			
+			.right-forearm {
+				width: 36px;
+				height: 121px;
+				top: 106px;
+				left: 14px;
+				-webkit-transform-origin: 15px 11px;
+				-webkit-animation: right-forearm-action 2s linear infinite;
+			}
+			
+			.left-forearm {
+				width: 36px;
+				height: 121px;
+				top: 106px;
+				left: 14px;
+				-webkit-transform-origin: 15px 11px;
+				-webkit-animation: left-forearm-action 2s linear infinite;
+			}
+			
+			.right-thigh {
+				width: 69px;
+				height: 144px;
+				-webkit-transform-origin: 33px 5px;
+				z-index: -1;
+				left: 9px;
+				top: 250px;
+				-webkit-animation: right-thigh-action 2s linear infinite;
+			}
+			
+			.left-thigh {
+				width: 69px;
+				height: 144px;
+				left: 10px;
+				top: 255px;
+				z-index: -1;
+				-webkit-transform-origin: 36px 5px;
+				-webkit-animation: left-thigh-action 2s linear infinite;
+			}
+			
+			.shin {
+				width: 53px;
+				height: 173px;
+				-webkit-transform-origin: 26px 19px;
+				left:7px;
+				top:115px;
+				z-index: -1;
+				-webkit-animation: shin-action 2s linear infinite;
+				
+			}
+			
+			.shin-2 {
+				width: 53px;
+				height: 173px;
+				-webkit-transform-origin: 26px 19px;
+				left:7px;
+				top:115px;
+				z-index: -1;
+				-webkit-animation: shin-2-action 2s linear infinite;
+				
+			}
+			
+			.foot-left {
+				width: 67px;
+				height: 34px;
+				-webkit-transform-origin: 23px 21px;
+				top: 150px;
+				left: 2px;
+				-webkit-animation: foot-left-action 2s linear infinite;
+				
+			}
+			
+			.foot-right{
+				width: 67px;
+				height: 34px;
+				-webkit-transform-origin: 23px 21px;
+				top:150px;
+				left:2px;
+				-webkit-animation: foot-right-action 2s linear infinite;
+				
+			}
+			
+			.toe-left{
+				width: 28px;
+				height: 25px;
+				-webkit-transform-origin: 0px 13px;
+				top:9px;
+				left:63px;
+				-webkit-animation: toe-left-action 2s linear infinite;
+				
+			}
+			
+			.toe-right{
+				width: 28px;
+				height: 25px;
+				-webkit-transform-origin: 0px 13px;
+				top:9px;
+				left:63px;
+				-webkit-animation: toe-right-action 2s linear infinite;
+				
+			}
+						
+		</style>
+	</head>
+
+	<body>
+
+		<div class="man">
+			<img src="img/torso.png" />
+			<div class="left-bicep">
+				<img src="img/left-bicep.png" />
+				<div class="left-forearm">
+					<img src="img/left-forearm.png" />
+				</div>
+			</div>
+			<div class="right-bicep">
+				<img src="img/right-bicep.png" />
+				<div class="right-forearm">
+					<img src="img/right-forearm.png" />
+				</div>
+			</div>
+			<div class="left-thigh">
+				<img src="img/left-thigh.png" />
+				<div class="shin">
+					<img src="img/shin.png" />
+					<div class="foot-left">
+						<img src="img/foot.png" />
+						<div class="toe-left">
+							<img src="img/toes.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-thigh">
+				<img src="img/right-thigh.png" />
+				<div class="shin-2">
+					<img src="img/shin.png" />
+					<div class="foot-right">
+						<img src="img/foot.png" />
+						<div class="toe-right">
+							<img src="img/toes.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
